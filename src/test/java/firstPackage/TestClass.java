@@ -8,4 +8,9 @@ public class TestClass {
     public void checkingNum() {
         Assertions.assertTrue(2 < 5);
     }
+
+    @Test
+    public void checkingNum1() {
+        Assertions.assertTrue(3 < 5);
+    }
 }
